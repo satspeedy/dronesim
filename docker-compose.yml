@@ -19,5 +19,3 @@ services:
       - TZ=Europe/Berlin
     ports:
       - '8282:8282'
-      - '3082:3082'
-      - '52082:52082'

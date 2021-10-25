@@ -77,8 +77,6 @@ docker run \
 --name dronesim-app \
 --rm \
 -p 8282:8282 \
--p 3082:3082 \
--p 52082:52082 \
 -e SPRING_KAFKA_BOOTSTRAP-SERVERS=host.docker.internal:9094 \
 -e DAPR_HTTP_PORT=3082 \
 -e DAPR_GRPC_PORT=52082 \
